@@ -1,0 +1,101 @@
+[
+  {
+    "name": "AnimeKai",
+    "baseUrl": "https://animekai.to",
+    "searchEndpoint": "/search?q=",
+    "episodeListSelector": ".episode-list",
+    "videoUrlSelector": ".video-player source",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "Referer": "https://animekai.to"
+    }
+  },
+  {
+    "name": "HiAnime",
+    "baseUrl": "https://hianime.tv",
+    "searchEndpoint": "/search?query=",
+    "episodeListSelector": ".episodes",
+    "videoUrlSelector": ".player source",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "Referer": "https://hianime.tv"
+    }
+  },
+  {
+    "name": "Miruro",
+    "baseUrl": "https://www.miruro.tv",
+    "searchEndpoint": "/search?keyword=",
+    "episodeListSelector": ".episode-list",
+    "videoUrlSelector": ".video-embed iframe",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "Referer": "https://www.miruro.tv"
+    }
+  },
+  {
+    "name": "Gojo",
+    "baseUrl": "https://gojo.wtf",
+    "searchEndpoint": "/search?q=",
+    "episodeListSelector": ".episodes",
+    "videoUrlSelector": ".player source",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "Referer": "https://gojo.wtf"
+    }
+  },
+  {
+    "name": "AniPlay",
+    "baseUrl": "https://aniplay.lol",
+    "searchEndpoint": "/search?term=",
+    "episodeListSelector": ".episode-list",
+    "videoUrlSelector": ".video-player source",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "Referer": "https://aniplay.lol"
+    }
+  },
+  {
+    "name": "AllManga Anime",
+    "baseUrl": "https://allmanga.to/anime",
+    "searchEndpoint": "/search?q=",
+    "episodeListSelector": ".episodes",
+    "videoUrlSelector": ".player source",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "Referer": "https://allmanga.to"
+    }
+  },
+  {
+    "name": "AnimeZ",
+    "baseUrl": "https://animez.org",
+    "searchEndpoint": "/search?query=",
+    "episodeListSelector": ".episode-list",
+    "videoUrlSelector": ".video-player source",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "Referer": "https://animez.org"
+    }
+  },
+  {
+    "name": "UniqueStream Anime",
+    "baseUrl": "https://anime.uniquestream.net",
+    "searchEndpoint": "/search?q=",
+    "episodeListSelector": ".episodes",
+    "videoUrlSelector": ".player source",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "Referer": "https://anime.uniquestream.net"
+    }
+  },
+  {
+    "name": "Anime Nexus",
+    "baseUrl": "https://anime.nexus",
+    "searchEndpoint": "/search?term=",
+    "episodeListSelector": ".episode-list",
+    "videoUrlSelector": ".video-player source",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "Referer": "https://anime.nexus"
+    }
+  }
+]
